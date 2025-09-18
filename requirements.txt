@@ -1,0 +1,30 @@
+# Core dependencies for your code
+pandas==2.2.3
+langchain-core>=0.3.67
+langgraph>=0.6.7
+langgraph-prebuilt>=0.6.4  # Added for create_react_agent
+pydantic==2.10.6
+langchain-groq>=0.2.4
+langchain-openai>=0.3.9
+python-dotenv==1.0.1
+typing-extensions==4.12.2
+
+# FastAPI and its dependencies
+fastapi==0.115.8
+uvicorn==0.34.0
+starlette==0.45.3
+httpx==0.28.1
+
+# Additional LangChain dependencies
+langsmith>=0.3.45
+requests==2.32.3
+orjson==3.10.15
+PyYAML==6.0.2
+SQLAlchemy==2.0.38
+
+# Streamlit and langchain-community as requested
+streamlit==1.39.0
+langchain-community>=0.3.17
+
+# Local package
+-e .

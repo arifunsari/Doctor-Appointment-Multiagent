@@ -1,0 +1,29 @@
+# Core dependencies for your code
+pandas==2.2.3
+langchain-core==0.3.45
+langgraph==0.2.70
+pydantic==2.10.6
+langchain-groq==0.2.4
+langchain-openai==0.3.9
+python-dotenv==1.0.1
+typing-extensions==4.12.2  # Required for LangChain type hints
+
+# FastAPI and its dependencies
+fastapi==0.115.8
+uvicorn==0.34.0  # For serving FastAPI
+starlette==0.45.3  # Core framework for FastAPI
+httpx==0.28.1  # For API calls (also used by LangChain)
+
+# Additional LangChain dependencies
+langsmith==0.3.8  # LangChain tracing and utilities
+requests==2.32.3  # For HTTP requests
+orjson==3.10.15  # Fast JSON parsing for LangChain
+PyYAML==6.0.2  # For configuration files
+SQLAlchemy==2.0.38  # For langchain-community (potential DB integrations)
+
+# Streamlit and langchain-community as requested
+streamlit==1.39.0  # Included as per your original requirements.txt
+langchain-community==0.3.17  # For community integrations
+
+# Local package
+-e .  # Installs your local package
